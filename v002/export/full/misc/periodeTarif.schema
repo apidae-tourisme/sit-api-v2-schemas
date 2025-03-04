@@ -24,7 +24,7 @@
         "properties" : {
           "devise" : {
             "type" : "string",
-            "enum" : [ "EUR", "CHF", "XPF" ]
+            "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
           },
           "minimum" : {
             "type" : "number"

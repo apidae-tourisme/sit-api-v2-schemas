@@ -8772,6 +8772,14 @@
               "dateSpeciale" : {
                 "type" : "string",
                 "enum" : [ "PREMIER_JANVIER", "BERCHTOLDSTAG", "SAINT_JOSEPH", "ARRIVEE_EVANGILE", "FETE_CITOYENNETE", "VENDREDI_SAINT", "LUNDI_PAQUES", "ASCENSION", "LUNDI_PENTECOTE", "PREMIER_MAI", "HUIT_MAI", "FETE_AUTONOMIE", "QUATORZE_JUILLET", "FETE_DIEU", "FETE_NATIONALE_SUISSE", "QUINZE_AOUT", "LUNDI_DU_JEUNE_FEDERAL", "PREMIER_NOVEMBRE", "ONZE_NOVEMBRE", "IMMACULEE_CONCEPTION", "VINGT_CINQ_DECEMBRE", "MARDI_GRAS", "MERCREDI_DES_CENDRES", "JEUDI_MI_CAREME", "FETE_VICTOR_SCHOELCHER", "JOUR_DES_DEFUNTS", "ABOLITION_DE_LESCLAVAGE_GUADELOUPE", "ABOLITION_DE_LESCLAVAGE_MARTINIQUE" ]
+              },
+              "dates" : {
+                "type" : "array",
+                "additionalItems" : false,
+                "items" : {
+                  "type" : "string",
+                  "format" : "date"
+                }
               }
             }
           }
@@ -9115,7 +9123,7 @@
                   "properties" : {
                     "devise" : {
                       "type" : "string",
-                      "enum" : [ "EUR", "CHF", "XPF" ]
+                      "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                     },
                     "minimum" : {
                       "type" : "number"
@@ -9938,7 +9946,7 @@
         },
         "devise" : {
           "type" : "string",
-          "enum" : [ "EUR", "CHF", "XPF" ]
+          "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
         },
         "taxeDeSejourIncluse" : {
           "type" : "string",
@@ -23913,6 +23921,14 @@
                     "dateSpeciale" : {
                       "type" : "string",
                       "enum" : [ "PREMIER_JANVIER", "BERCHTOLDSTAG", "SAINT_JOSEPH", "ARRIVEE_EVANGILE", "FETE_CITOYENNETE", "VENDREDI_SAINT", "LUNDI_PAQUES", "ASCENSION", "LUNDI_PENTECOTE", "PREMIER_MAI", "HUIT_MAI", "FETE_AUTONOMIE", "QUATORZE_JUILLET", "FETE_DIEU", "FETE_NATIONALE_SUISSE", "QUINZE_AOUT", "LUNDI_DU_JEUNE_FEDERAL", "PREMIER_NOVEMBRE", "ONZE_NOVEMBRE", "IMMACULEE_CONCEPTION", "VINGT_CINQ_DECEMBRE", "MARDI_GRAS", "MERCREDI_DES_CENDRES", "JEUDI_MI_CAREME", "FETE_VICTOR_SCHOELCHER", "JOUR_DES_DEFUNTS", "ABOLITION_DE_LESCLAVAGE_GUADELOUPE", "ABOLITION_DE_LESCLAVAGE_MARTINIQUE" ]
+                    },
+                    "dates" : {
+                      "type" : "array",
+                      "additionalItems" : false,
+                      "items" : {
+                        "type" : "string",
+                        "format" : "date"
+                      }
                     }
                   }
                 }
@@ -24256,7 +24272,7 @@
                         "properties" : {
                           "devise" : {
                             "type" : "string",
-                            "enum" : [ "EUR", "CHF", "XPF" ]
+                            "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                           },
                           "minimum" : {
                             "type" : "number"
@@ -25079,7 +25095,7 @@
               },
               "devise" : {
                 "type" : "string",
-                "enum" : [ "EUR", "CHF", "XPF" ]
+                "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
               },
               "taxeDeSejourIncluse" : {
                 "type" : "string",

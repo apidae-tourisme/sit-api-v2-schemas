@@ -49,7 +49,7 @@
     },
     "devise" : {
       "type" : "string",
-      "enum" : [ "EUR", "CHF", "XPF" ]
+      "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
     },
     "nombreSallesReunionEquipees" : {
       "type" : "integer"
