@@ -132,6 +132,10 @@
     "searchLocale" : {
       "type" : "string"
     },
+    "modifieApres" : {
+      "type" : "string",
+      "format" : "date"
+    },
     "dureeMin" : {
       "type" : "integer"
     },

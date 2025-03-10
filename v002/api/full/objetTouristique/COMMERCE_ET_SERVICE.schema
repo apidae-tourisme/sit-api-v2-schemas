@@ -9555,7 +9555,7 @@
                   "properties" : {
                     "devise" : {
                       "type" : "string",
-                      "enum" : [ "EUR", "CHF", "XPF" ]
+                      "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                     },
                     "minimum" : {
                       "type" : "number"
@@ -10378,7 +10378,7 @@
         },
         "devise" : {
           "type" : "string",
-          "enum" : [ "EUR", "CHF", "XPF" ]
+          "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
         },
         "taxeDeSejourIncluse" : {
           "type" : "string",
@@ -14114,7 +14114,7 @@
         },
         "devise" : {
           "type" : "string",
-          "enum" : [ "EUR", "CHF", "XPF" ]
+          "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
         },
         "nombreSallesReunionEquipees" : {
           "type" : "integer"
@@ -26898,7 +26898,7 @@
                         "properties" : {
                           "devise" : {
                             "type" : "string",
-                            "enum" : [ "EUR", "CHF", "XPF" ]
+                            "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                           },
                           "minimum" : {
                             "type" : "number"
@@ -27721,7 +27721,7 @@
               },
               "devise" : {
                 "type" : "string",
-                "enum" : [ "EUR", "CHF", "XPF" ]
+                "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
               },
               "taxeDeSejourIncluse" : {
                 "type" : "string",

@@ -2036,7 +2036,7 @@
                   "properties" : {
                     "devise" : {
                       "type" : "string",
-                      "enum" : [ "EUR", "CHF", "XPF" ]
+                      "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                     },
                     "minimum" : {
                       "type" : "number"
@@ -2163,7 +2163,7 @@
         },
         "devise" : {
           "type" : "string",
-          "enum" : [ "EUR", "CHF", "XPF" ]
+          "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
         },
         "taxeDeSejourIncluse" : {
           "type" : "string",
@@ -5619,7 +5619,7 @@
                         "properties" : {
                           "devise" : {
                             "type" : "string",
-                            "enum" : [ "EUR", "CHF", "XPF" ]
+                            "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
                           },
                           "minimum" : {
                             "type" : "number"
@@ -5746,7 +5746,7 @@
               },
               "devise" : {
                 "type" : "string",
-                "enum" : [ "EUR", "CHF", "XPF" ]
+                "enum" : [ "EUR", "CHF", "XPF", "XOF" ]
               },
               "taxeDeSejourIncluse" : {
                 "type" : "string",
